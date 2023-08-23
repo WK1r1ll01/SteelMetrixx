@@ -18,20 +18,41 @@
       <nav class="header__nav nav">
          <ul class="nav__list">
             <li class="nav__item"><a href="#" class="nav__link">Главная</a></li>
-            <li class="nav__item nav__item-dropdown">
-               <a class="nav__link nav__link_dropdown">Компетенции
-                  <svg class="nav__link-img">
+            <li class="nav__item nav__item_dropdown">
+               <span class="nav-item nav-item_dropdown">Компетенции
+                  <svg class="nav-item-img">
                      <use href="img/sprite.svg#angle"></use>
                   </svg>
-               </a>
+               </span>
                <ul class="nav__dropdown">
-                  <li class="nav__dropdown-item"><a href="#" class="nav__dropdown-link">Производственные технологии</a></li>
-                  <li class="nav__dropdown-item"><a href="#" class="nav__dropdown-link">Реализованные проекты</a></li>
+                  <li class="nav__dropdown-item"><a href="#" class="nav__link nav__dropdown-link">Производственные технологии</a></li>
+                  <li class="nav__dropdown-item"><a href="#" class="nav__link nav__dropdown-link">Реализованные проекты</a></li>
                </ul>
             </li>
             <li class="nav__item"><a href="#" class="nav__link">О компании</a></li>
             <li class="nav__item"><a href="#" class="nav__link">Контакты</a></li>
          </ul>
+
+         <div class="nav__contact">
+            <span class="nav__tel">
+               <a href="tel:88003027479" class="nav__tel-link">8 (800) 302-74-79</a>
+               <span class="nav__tel-text">Звонок по России бесплатный</span>
+            </span>
+            <ul class="nav__contact-list">
+               <li class="nav__contact-item">
+                  <img src="img/whatsapp.svg" alt="whatsapp" class="nav__contact-img">
+                  <a href="#" class="nav__contact-link">WhatsApp</a>
+               </li>
+               <li class="nav__contact-item">
+                  <img src="img/telegram.svg" alt="telegram" class="nav__contact-img">
+                  <a href="#" class="nav__contact-link">Telegram</a>
+               </li>
+               <li class="nav__contact-item">
+                  <img src="img/mail.svg" alt="mail" class="nav__contact-img">
+                  <a href="#" class="nav__contact-link">info@stelmetrixx.ru</a>
+               </li>
+            </ul>
+         </div>
       </nav>
 
       <a href="tel:88003027479" class="header__tel">8 800 302 74 79</a>
@@ -42,7 +63,410 @@
    </div>
 </header>
       <main class="main">
-         
+         <section class="hero">
+   <div class="container">
+      <h1 class="hero__title h1 h1_light">Cтроительство быстровозводимых зданий и производство металлоконструкций</h1>
+      <p class="hero__text text-main text-main_light">Полнофункциональные решения по зданиям, конструкциям и инженерным системам на основе анализа функциональных и технологических потребностей предприятия</p>
+      <a href="#" class="hero__btn btn-main">Рассчитать проект</a>
+   </div>
+</section>
+         <section class="example">
+   <div class="container">
+      <ul class="example__list">
+         <li class="example__item">
+            <picture>
+               <source srcset="img/building-1.avif" type="image/avif">
+               <source srcset="img/building-1.webp" type="image/webp">
+               <img src="img/building-1.png" alt="Здание" class="example__item-img">
+            </picture>
+            <span class="example__item-text text-secondary text-secondary_light">Здания и сооружения</span>
+         </li>
+         <li class="example__item">
+            <picture>
+               <source srcset="img/metal-frame-1.avif" type="image/avif">
+               <source srcset="img/metal-frame-1.webp" type="image/webp">
+               <img src="img/metal-frame-1.png" alt="Металлический каркас" class="example__item-img">
+            </picture>
+            <span class="example__item-text text-secondary text-secondary_light">Металлические каркасы</span>
+         </li>
+         <li class="example__item">
+            <picture>
+               <source srcset="img/metal-structures-1.avif" type="image/avif">
+               <source srcset="img/metal-structures-1.webp" type="image/webp">
+               <img src="img/metal-structures-1.png" alt="Металлические конструкции" class="example__item-img">
+            </picture>
+            <span class="example__item-text text-secondary text-secondary_light">Металлоконструкции</span>
+         </li>
+         <li class="example__item">
+            <picture>
+               <source srcset="img/engineering-systems-1.avif" type="image/avif">
+               <source srcset="img/engineering-systems-1.webp" type="image/webp">
+               <img src="img/engineering-systems-1.png" alt="Инженерная система" class="example__item-img">
+            </picture>
+            <span class="example__item-text text-secondary text-secondary_light">Инженерные системы</span>
+         </li>
+      </ul>
+   </div>
+</section>
+         <section class="industry-solution">
+   <h2 class="industry-solution__title h2 h2_light title-row">Отраслевые решения</h2>
+   <div class="container">
+      <ul class="industry-solution__list">
+         <li class="industry-solution__item">
+            <a href="#" class="industry-solution__link">
+               <svg class="industry-solution__link-img">
+                  <use href="img/sprite.svg#agriculture-icon"></use>
+               </svg>
+               <span class="industry-solution__link-title">Cельское хозяйство</span>
+               <span class="industry-solution__link-text text-secondary text-secondary_light">комплексы для растениеводства и животноводства</span>
+            </a>
+         </li>
+
+         <li class="industry-solution__item">
+            <a href="#" class="industry-solution__link">
+               <svg class="industry-solution__link-img">
+                  <use href="img/sprite.svg#logistics-icon"></use>
+               </svg>
+               <span class="industry-solution__link-title">Логистика и склады</span>
+               <span class="industry-solution__link-text text-secondary text-secondary_light">логистические терминалы и складские комплексы</span>
+            </a>
+         </li>
+
+         <li class="industry-solution__item">
+            <a href="#" class="industry-solution__link">
+               <svg class="industry-solution__link-img">
+                  <use href="img/sprite.svg#energy-icon"></use>
+               </svg>
+               <span class="industry-solution__link-title">Энергетика</span>
+               <span class="industry-solution__link-text text-secondary text-secondary_light">текст про основные виды строений в этой отрасли</span>
+            </a>
+         </li>
+
+         <li class="industry-solution__item">
+            <a href="#" class="industry-solution__link">
+               <svg class="industry-solution__link-img">
+                  <use href="img/sprite.svg#auto-icon"></use>
+               </svg>
+               <span class="industry-solution__link-title">Автомобильный бизнес</span>
+               <span class="industry-solution__link-text text-secondary text-secondary_light">текст про основные виды строений в этой отрасли</span>
+            </a>
+         </li>
+
+         <li class="industry-solution__item">
+            <a href="#" class="industry-solution__link">
+               <svg class="industry-solution__link-img">
+                  <use href="img/sprite.svg#shop-icon"></use>
+               </svg>
+               <span class="industry-solution__link-title">Торговые организации</span>
+               <span class="industry-solution__link-text text-secondary text-secondary_light">гипермаркеты, магазины, товарные склады, павильоны</span>
+            </a>
+         </li>
+
+         <li class="industry-solution__item">
+            <a href="#" class="industry-solution__link">
+               <svg class="industry-solution__link-img">
+                  <use href="img/sprite.svg#industry-icon"></use>
+               </svg>
+               <span class="industry-solution__link-title">Промышленность</span>
+               <span class="industry-solution__link-text text-secondary text-secondary_light">легкая, текстильная, пищевая, металлургия, машиностроение</span>
+            </a>
+         </li>
+
+         <li class="industry-solution__item">
+            <a href="#" class="industry-solution__link">
+               <svg class="industry-solution__link-img">
+                  <use href="img/sprite.svg#office-icon"></use>
+               </svg>
+               <span class="industry-solution__link-title">Административные и офисные здания</span>
+               <span class="industry-solution__link-text text-secondary text-secondary_light">текст про основные виды строений в этой отрасли</span>
+            </a>
+         </li>
+
+         <li class="industry-solution__item">
+            <a href="#" class="industry-solution__link">
+               <svg class="industry-solution__link-img">
+                  <use href="img/sprite.svg#road-icon"></use>
+               </svg>
+               <span class="industry-solution__link-title">Дороги и мосты</span>
+               <span class="industry-solution__link-text text-secondary text-secondary_light">текст про основные виды строений в этой отрасли</span>
+            </a>
+         </li>
+
+         <li class="industry-solution__item">
+            <a href="#" class="industry-solution__link">
+               <svg class="industry-solution__link-img">
+                  <use href="img/sprite.svg#stadium-icon"></use>
+               </svg>
+               <span class="industry-solution__link-title">Спортивные организации</span>
+               <span class="industry-solution__link-text text-secondary text-secondary_light">стадионы, спорткомплексы, катки, бассейны, спортшколы</span>
+            </a>
+         </li>
+
+         <li class="industry-solution__item">
+            <a href="#" class="industry-solution__link">
+               <svg class="industry-solution__link-img">
+                  <use href="img/sprite.svg#home-icon"></use>
+               </svg>
+               <span class="industry-solution__link-title">Проживание и размещение людей</span>
+               <span class="industry-solution__link-text text-secondary text-secondary_light">текст про основные виды строений в этой отрасли</span>
+            </a>
+         </li>
+
+         <li class="industry-solution__item">
+            <a href="#" class="industry-solution__link">
+               <svg class="industry-solution__link-img">
+                  <use href="img/sprite.svg#medic-icon"></use>
+               </svg>
+               <span class="industry-solution__link-title">Медицина и образование</span>
+               <span class="industry-solution__link-text text-secondary text-secondary_light">текст про основные виды строений в этой отрасли</span>
+            </a>
+         </li>
+
+         <li class="industry-solution__item">
+            <a href="#" class="industry-solution__link">
+               <svg class="industry-solution__link-img">
+                  <use href="img/sprite.svg#military-icon"></use>
+               </svg>
+               <span class="industry-solution__link-title">Оборонно-промышленный комплекс</span>
+               <span class="industry-solution__link-text text-secondary text-secondary_light">текст про основные виды строений в этой отрасли</span>
+            </a>
+         </li>
+      </ul>
+
+      <div class="industry-solution__wrapper"><button class="industry-solution__show-more show-more">Показать еще</button></div>
+
+      <ul class="industry-solution__list-info">
+         <li class="industry-solution__item-info">
+            <span class="industry-solution__item-info-title">300+</span>
+            <span class="industry-solution__item-info-text">построенных быстровозводимых объектов</span>
+         </li>
+
+         <li class="industry-solution__item-info">
+            <span class="industry-solution__item-info-title">250+</span>
+            <span class="industry-solution__item-info-text">достигнутых целей клиентов</span>
+         </li>
+
+         <li class="industry-solution__item-info">
+            <span class="industry-solution__item-info-title">7+</span>
+            <span class="industry-solution__item-info-text">лет опыта эффективной работы</span>
+         </li>
+
+         <li class="industry-solution__item-info">
+            <span class="industry-solution__item-info-title">20 000</span>
+            <span class="industry-solution__item-info-text">тонн/год мощность завода металлоконструкций</span>
+         </li>
+      </ul>
+   </div>
+</section>
+         <section class="realized-projects">
+   <h2 class="realized-projects__title h2 h2_light title-row">Реализованные проекты</h2>
+
+   <div class="container">
+      <ul class="realized-projects__list">
+         <li class="realized-projects__item">
+            <a href="#" class="realized-projects__link">
+               <picture>
+                  <source srcset="img/factory-1.avif" type="image/avif">
+                  <source srcset="img/factory-1.webp" type="image/webp">
+                  <img src="img/factory-1.png" alt="" class="realized-projects__link-img">
+               </picture>
+               <span class="realized-projects__link__text">
+                  <span class="realized-projects__link__text-text">Завод Пегас Агро</span>
+                  <img src="img/arrow-light.svg" alt="arrow" class="realized-projects__link__text-img">
+               </span>
+            </a>
+         </li>
+         <li class="realized-projects__item">
+            <a href="#" class="realized-projects__link">
+               <picture>
+                  <source srcset="img/tfc-1.avif" type="image/avif">
+                  <source srcset="img/tfc-1.webp" type="image/webp">
+                  <img src="img/tfc-1.png" alt="" class="realized-projects__link-img">
+               </picture>
+               <span class="realized-projects__link__text">
+                  <span class="realized-projects__link__text-text">Торгово-выставочный центр</span>
+                  <img src="img/arrow-light.svg" alt="arrow" class="realized-projects__link__text-img">
+               </span>
+            </a>
+         </li>
+         <li class="realized-projects__item">
+            <a href="#" class="realized-projects__link">
+               <picture>
+                  <source srcset="img/poultry-houses-1.avif" type="image/avif">
+                  <source srcset="img/poultry-houses-1.webp" type="image/webp">
+                  <img src="img/poultry-houses-1.png" alt="" class="realized-projects__link-img">
+               </picture>
+               <span class="realized-projects__link__text">
+                  <span class="realized-projects__link__text-text">Птичники</span>
+                  <img src="img/arrow-light.svg" alt="arrow" class="realized-projects__link__text-img">
+               </span>
+            </a>
+         </li>
+         <li class="realized-projects__item">
+            <a href="#" class="realized-projects__link">
+               <picture>
+                  <source srcset="img/factory-2.avif" type="image/avif">
+                  <source srcset="img/factory-2.webp" type="image/webp">
+                  <img src="img/factory-2.png" alt="" class="realized-projects__link-img">
+               </picture>
+               <span class="realized-projects__link__text">
+                  <span class="realized-projects__link__text-text">Завод по горячему цинкованию</span>
+                  <img src="img/arrow-light.svg" alt="arrow" class="realized-projects__link__text-img">
+               </span>
+            </a>
+         </li>
+         <li class="realized-projects__item">
+            <a href="#" class="realized-projects__link">
+               <picture>
+                  <source srcset="img/tc-1.avif" type="image/avif">
+                  <source srcset="img/tc-1.webp" type="image/webp">
+                  <img src="img/tc-1.png" alt="" class="realized-projects__link-img">
+               </picture>
+               <span class="realized-projects__link__text">
+                  <span class="realized-projects__link__text-text">ТК «Эльдорадо»</span>
+                  <img src="img/arrow-light.svg" alt="arrow" class="realized-projects__link__text-img">
+               </span>
+            </a>
+         </li>
+         <li class="realized-projects__item">
+            <a href="#" class="realized-projects__link">
+               <picture>
+                  <source srcset="img/barracks-1.avif" type="image/avif">
+                  <source srcset="img/barracks-1.webp" type="image/webp">
+                  <img src="img/barracks-1.png" alt="" class="realized-projects__link-img">
+               </picture>
+               <span class="realized-projects__link__text">
+                  <span class="realized-projects__link__text-text">Казармы</span>
+                  <img src="img/arrow-light.svg" alt="arrow" class="realized-projects__link__text-img">
+               </span>
+            </a>
+         </li>
+         <li class="realized-projects__item">
+            <a href="#" class="realized-projects__link">
+               <picture>
+                  <source srcset="img/vegetable-storage-1.avif" type="image/avif">
+                  <source srcset="img/vegetable-storage-1.webp" type="image/webp">
+                  <img src="img/vegetable-storage-1.png" alt="" class="realized-projects__link-img">
+               </picture>
+               <span class="realized-projects__link__text">
+                  <span class="realized-projects__link__text-text">Овощехранилище</span>
+                  <img src="img/arrow-light.svg" alt="arrow" class="realized-projects__link__text-img">
+               </span>
+            </a>
+         </li>
+         <li class="realized-projects__item">
+            <a href="#" class="realized-projects__link">
+               <picture>
+                  <source srcset="img/production-hall-1.avif" type="image/avif">
+                  <source srcset="img/production-hall-1.webp" type="image/webp">
+                  <img src="img/production-hall-1.png" alt="" class="realized-projects__link-img">
+               </picture>
+               <span class="realized-projects__link__text">
+                  <span class="realized-projects__link__text-text">Производственный цех</span>
+                  <img src="img/arrow-light.svg" alt="arrow" class="realized-projects__link__text-img">
+               </span>
+            </a>
+         </li>
+         <li class="realized-projects__item">
+            <a href="#" class="realized-projects__link">
+               <picture>
+                  <source srcset="img/hangar-complex-1.avif" type="image/avif">
+                  <source srcset="img/hangar-complex-1.webp" type="image/webp">
+                  <img src="img/hangar-complex-1.png" alt="" class="realized-projects__link-img">
+               </picture>
+               <span class="realized-projects__link__text">
+                  <span class="realized-projects__link__text-text">Комплекс ангаров</span>
+                  <img src="img/arrow-light.svg" alt="arrow" class="realized-projects__link__text-img">
+               </span>
+            </a>
+         </li>
+         <li class="realized-projects__item">
+            <a href="#" class="realized-projects__link">
+               <picture>
+                  <source srcset="img/overpasses-1.avif" type="image/avif">
+                  <source srcset="img/overpasses-1.webp" type="image/webp">
+                  <img src="img/overpasses-1.png" alt="" class="realized-projects__link-img">
+               </picture>
+               <span class="realized-projects__link__text">
+                  <span class="realized-projects__link__text-text">Эстакады для Газпром</span>
+                  <img src="img/arrow-light.svg" alt="arrow" class="realized-projects__link__text-img">
+               </span>
+            </a>
+         </li>
+         <li class="realized-projects__item">
+            <a href="#" class="realized-projects__link">
+               <picture>
+                  <source srcset="img/farm-1.avif" type="image/avif">
+                  <source srcset="img/farm-1.webp" type="image/webp">
+                  <img src="img/farm-1.png" alt="" class="realized-projects__link-img">
+               </picture>
+               <span class="realized-projects__link__text">
+                  <span class="realized-projects__link__text-text">Товарно-молочная ферма</span>
+                  <img src="img/arrow-light.svg" alt="arrow" class="realized-projects__link__text-img">
+               </span>
+            </a>
+         </li>
+         <li class="realized-projects__item">
+            <a href="#" class="realized-projects__link">
+               <picture>
+                  <source srcset="img/pumping-station-1.avif" type="image/avif">
+                  <source srcset="img/pumping-station-1.webp" type="image/webp">
+                  <img src="img/pumping-station-1.png" alt="" class="realized-projects__link-img">
+               </picture>
+               <span class="realized-projects__link__text">
+                  <span class="realized-projects__link__text-text">Насосная станция</span>
+                  <img src="img/arrow-light.svg" alt="arrow" class="realized-projects__link__text-img">
+               </span>
+            </a>
+         </li>
+      </ul>
+      <div class="realized-projects__wrapper"><button class="realized-projects__show-more show-more show-more_light">Показать еще</button></div>
+   </div>
+</section>
+         <section class="answer-questions">
+   <div class="answer-questions__container container">
+      <h2 class="answer-questions__title h2 h2_light">Ответим на вопросы и поможем с выбором проекта</h2>
+      <div class="answer-questions__wrapper">
+         <a href="#" class="btn-secondary btn-secondary_fill">Задать вопрос</a>
+         <a href="#" class="btn-secondary btn-secondary_stroke">Выбрать проект</a>
+      </div>
+   </div>
+</section>
+         <section class="our-base">
+   <div class="container">
+      <h2 class="our-base__title h2 h2_dark">СОБСТВЕННАЯ ТЕХНОЛОГИЧЕСКАЯ И ПРОИЗВОДСТВЕННАЯ БАЗА</h2>
+
+      <ul class="our-base__list">
+         <li class="our-base__item">
+            <picture>
+               <source srcset="img/our-team-1.avif" type="image/avif">
+               <source srcset="img/our-team-1.webp" type="image/webp">
+               <img src="img/our-team-1.png" alt="" class="our-base__item-img">
+            </picture>
+            <span class="our-base__item-title">НИОКР и проектный отдел</span>
+            <span class="our-base__item-text">отраслевые технологи, более 10 конструкторов и расчетчиков</span>
+         </li>
+         <li class="our-base__item">
+            <picture>
+               <source srcset="img/our-factory-1.avif" type="image/avif">
+               <source srcset="img/our-factory-1.webp" type="image/webp">
+               <img src="img/our-factory-1.png" alt="" class="our-base__item-img">
+            </picture>
+            <span class="our-base__item-title">Завод металлоконструкций</span>
+            <span class="our-base__item-text">производственная площадка площадью 10 000 кв.м</span>
+         </li>
+         <li class="our-base__item">
+            <picture>
+               <source srcset="img/our-team-2.avif" type="image/avif">
+               <source srcset="img/our-team-2.webp" type="image/webp">
+               <img src="img/our-team-2.png" alt="" class="our-base__item-img">
+            </picture>
+            <span class="our-base__item-title">Строительно-монтажный отдел</span>
+            <span class="our-base__item-text">штатные строители и монтажники, собственный парк спецтехники</span>
+         </li>
+      </ul>
+   </div>
+</section>
       </main>
       <footer class="footer">
    <div class="footer__container container">
